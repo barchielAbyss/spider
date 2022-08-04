@@ -1,0 +1,23 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.elysion.com:2bitlab/bfit-puppeteer.git",
+  "author": "elysion<elysion72513@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "md5-node": "^1.0.1",
+    "puppeteer-core": "^10.4.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "json2csv": "^5.0.6"
+  },
+  "volta": {
+    "node": "14.20.0"
+  }
+}
